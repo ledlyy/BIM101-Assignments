@@ -19,7 +19,6 @@ public class FirstPresident {
         return QUOTES[new Random().nextInt(QUOTES.length)];
     }
     public static void main(String[] args) {
-        //int year = 1881;
         int year = getRandomYear();
         String chronologicalOrder[] = {
                 "Mustafa was born in Salonika.",
@@ -56,5 +55,6 @@ public class FirstPresident {
                 System.out.printf("One of his favorite sayings is \"%s\"", getRandomQuote());
                 break;
         }
+
     }
 }
