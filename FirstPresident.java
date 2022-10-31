@@ -1,4 +1,5 @@
 import java.util.Random;
+//Assignment 2 İbrahim Yaşin
 public class FirstPresident {
 
     private static int[] YEARS = new int[]{
